@@ -1,4 +1,4 @@
-# ⚡ Prompt Enhancer
+# Prompt Enhancer
 
 > Transform vague ideas into precision prompts — instantly.
 
@@ -9,28 +9,26 @@
 
 ---
 
-## 🌐 Live Demo
+## Live Demo
 
-> 🔗 **Frontend:** [https://prompt-enhancer.vercel.app](https://prompt-enhancer.vercel.app)
->
-> 🔗 **Backend API:** [https://prompt-enhancer-api.onrender.com](https://prompt-enhancer-api.onrender.com)
+> 🔗 **Live View:** [Click Here!](https://prompt-enhancer-frontend.onrender.com)
 
 ---
 
-## ✨ Features
+## Features
 
-- 🧠 **AI-Powered Enhancement** — Google Gemini 2.0 Flash transforms raw prompts into optimized ones
-- 🎯 **Use Case Selector** — Coding, Writing, Image Generation, Data Analysis, Research, General
-- 🎨 **Tone Control** — Professional, Creative, Technical, Simple
-- 🔀 **Before / After View** — Original and enhanced prompt side by side
-- 📋 **One-Click Copy** — Copy enhanced prompt instantly
-- 🕐 **History** — Last 5 prompts saved in session
-- ⌨️ **Keyboard Shortcut** — `Ctrl + Enter` to enhance
-- 🌑 **Dark UI** — Modern dark theme with smooth animations
+-  **AI-Powered Enhancement** — Google Gemini 2.0 Flash transforms raw prompts into optimized ones
+-  **Use Case Selector** — Coding, Writing, Image Generation, Data Analysis, Research, General
+-  **Tone Control** — Professional, Creative, Technical, Simple
+-  **Before / After View** — Original and enhanced prompt side by side
+-  **One-Click Copy** — Copy enhanced prompt instantly
+-  **History** — Last 5 prompts saved in session
+-  **Keyboard Shortcut** — `Ctrl + Enter` to enhance
+-  **Dark UI** — Modern dark theme with smooth animations
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 | Layer | Technology |
 |-------|------------|
@@ -38,7 +36,7 @@
 | Styling | Pure CSS |
 | Backend | Python + FastAPI |
 | AI Model | Google Gemini 2.0 Flash |
-| Deployment | Vercel + Render |
+| Deployment | Render |
 
 ---
 
@@ -66,17 +64,17 @@ prompt-enhancer/
 
 ---
 
-## 🚀 Local Setup
+## Local Setup
 
 ### Prerequisites
 - Python 3.8+
 - Node.js 18+
-- Gemini API Key → [Get here](https://aistudio.google.com/apikey)
+- Gemini API Key → [Get here](https://aistudio.google.com/welcome?utm_source=google&utm_medium=cpc&utm_campaign=Cloud-SS-DR-AIS-FY26-global-gsem-1713578&utm_content=text-ad&utm_term=KW_gemini%20api%20key&gad_source=1&gad_campaignid=23417416052&gbraid=0AAAAACn9t64ZFv2f1B_ms4P8fjpjjWmMj&gclid=CjwKCAjwwdbPBhBgEiwAxBRA4bfIn6Dt_zIWH6bwxEdGsLUXJvQHLAStOsjqV_63Md2_TSBf7geK5RoCIoEQAvD_BwE)
 
 ### 1. Clone
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/prompt-enhancer.git
+git clone https://github.com/Sumit-Kushwaha62/prompt-enhancer.git
 cd prompt-enhancer
 ```
 
@@ -91,3 +89,11 @@ pip install -r requirements.txt
 ```
 
 Create `.env` in `backend/`:
+
+### 3. Frontend
+
+```bash
+cd frontend
+npm install
+npm run dev
+```

@@ -458,7 +458,7 @@ export default function App() {
     setEnhanced("");
 
     try {
-      const res = await axios.post("http://localhost:8000/enhance", {
+      const res = await axios.post("https://prompt-enhancer-backend-4m2z.onrender.com", {
         prompt: prompt.trim(),
         use_case: useCase,
         tone,
