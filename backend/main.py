@@ -49,7 +49,7 @@ Raw Prompt: {request.prompt}"""
     try:
         client = get_client()
         response = client.models.generate_content(
-            model="gemini-flash-latest",
+            model="models/gemini-2.5-flash",
             contents=system_instruction
         )
         enhanced = response.text.strip()
