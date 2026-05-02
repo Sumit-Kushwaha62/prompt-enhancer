@@ -1,0 +1,6 @@
+/* Minimal index.css to prevent conflicts with App.jsx internal styles */
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
