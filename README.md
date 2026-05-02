@@ -43,3 +43,51 @@
 ---
 
 ## 📁 Project Structure
+```
+
+prompt-enhancer/
+├── backend/
+│   ├── main.py
+│   ├── requirements.txt
+│   └── .env
+├── frontend/
+│   ├── src/
+│   │   └── App.jsx
+│   ├── index.html
+│   └── package.json
+├── .gitignore
+└── README.md
+
+```
+
+
+
+
+
+---
+
+## 🚀 Local Setup
+
+### Prerequisites
+- Python 3.8+
+- Node.js 18+
+- Gemini API Key → [Get here](https://aistudio.google.com/apikey)
+
+### 1. Clone
+
+```bash
+git clone https://github.com/YOUR_USERNAME/prompt-enhancer.git
+cd prompt-enhancer
+```
+
+### 2. Backend
+
+```bash
+cd backend
+python -m venv venv
+venv\Scripts\activate        # Windows
+# source venv/bin/activate   # Mac/Linux
+pip install -r requirements.txt
+```
+
+Create `.env` in `backend/`:
